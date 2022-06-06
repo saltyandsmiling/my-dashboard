@@ -5,8 +5,11 @@ import styles from "../styles/Home.module.css";
 import JournalIcon from "../public/journal-icon";
 import WavesIcon from "../public/waves";
 import WateringIcon from "../public/watering-icon";
+import PlayingCard from "../public/playing-card";
+import Link from "next/link";
 
 const Home: NextPage = () => {
+  const iconSize = "100px";
   return (
     <>
       <div className={styles.container}>
@@ -19,14 +22,19 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <section className={styles.iconContainer}>
           <span className={styles.iconWrapper}>
-            <JournalIcon />
+            <JournalIcon size={iconSize} />
           </span>
           <span className={styles.iconWrapper}>
-            <WavesIcon />
+            <WavesIcon size={iconSize} />
           </span>
           <span className={styles.iconWrapper}>
-            <WateringIcon />
+            <WateringIcon size={iconSize} />
           </span>
+          <Link href="/connection-game">
+            <span className={styles.iconWrapper}>
+              <PlayingCard size={iconSize} />
+            </span>
+          </Link>
         </section>
       </main>
     </>

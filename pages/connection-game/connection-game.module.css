@@ -1,0 +1,26 @@
+.env {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../public/backgroung-image-cropped.jpg");
+  background-size: cover;
+}
+
+.card {
+  color: #fff;
+  font-size: 1.5rem;
+  width: 85%;
+  border: solid 5px #fff;
+  padding: 2rem;
+}
+
+.back {
+  color: #fff;
+  font-size: large;
+  font-size: 1rem;
+  margin-top: 3rem;
+}

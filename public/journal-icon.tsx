@@ -1,8 +1,8 @@
-export default function JournalIcon() {
+export default function JournalIcon({ size }: { size: string }) {
   return (
     <svg
-      width="100px"
-      height="100px"
+      width={size}
+      height={size}
       viewBox="0 0 32 32"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
