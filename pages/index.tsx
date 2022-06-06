@@ -30,7 +30,7 @@ const Home: NextPage = () => {
           <span className={styles.iconWrapper}>
             <WateringIcon size={iconSize} />
           </span>
-          <Link href="/connection-game">
+          <Link href="/love-game">
             <span className={styles.iconWrapper}>
               <PlayingCard size={iconSize} />
             </span>

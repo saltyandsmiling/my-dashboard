@@ -1,11 +1,11 @@
 /* eslint-disable react/jsx-key */
 import { useState } from "react";
-import styles from "./connection-game.module.css";
+import styles from "./love-game.module.css";
 
 export default function ConnectionGame() {
   const allCards = [
-    "Warning",
-    ["Round", (<br />), "One"],
+    ["Warning", <br />, "scientifically", <br />, "we may fall in love."],
+    ["Round", <br />, "One"],
     ...romanticOne,
     ["Round", <br />, "Two"],
     ...romanticTwo,
